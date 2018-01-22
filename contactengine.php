@@ -1,8 +1,8 @@
 <?php
 
 $EmailFrom	 = "admin@webmaster.com";
-$EmailTo	 = "your@email.com";
-$Subject	 = "Message from Backyard visitor";
+$EmailTo	 = "fringetech@groups.facebook.com";
+$Subject	 = "Message from Fringe Tech visitor";
 $Name		 = Trim( stripslashes( $_POST[ 'Name' ] ) );
 $Email		 = Trim( stripslashes( $_POST[ 'Email' ] ) );
 $Message	 = Trim( stripslashes( $_POST[ 'Message' ] ) );
@@ -26,10 +26,10 @@ $Body .= "Message: ";
 $Body .= $Message;
 $Body .= "\n";
 
-// send email 
+// send email
 $success = mail( $EmailTo, $Subject, $Body, "From: <$EmailFrom>" );
 
-// redirect to success page 
+// redirect to success page
 if ( $success ) {
 	print "<meta http-equiv=\"refresh\" content=\"0;URL=contactthanks.php\">";
 } else {
