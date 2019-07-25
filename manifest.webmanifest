@@ -1,7 +1,7 @@
 {"name" : "fringe ict counsultancy",
     "theme_color" : "#ffffff",
     "background_color" : "#ffffff",
-    "display" : "fullscreen",
+    "display" : "standalone",
     "start_url" : "https://r3klaw.github.io/",
     "lang" : "",
     "short_name" : "ftic",
