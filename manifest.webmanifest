@@ -1,0 +1,20 @@
+{"name" : "fringe ict counsultancy",
+    "theme_color" : "#ffffff",
+    "background_color" : "#ffffff",
+    "display" : "fullscreen",
+    "start_url" : "https://r3klaw.github.io/",
+    "lang" : "",
+    "short_name" : "ftic",
+    "description" : "information web app for ftic",
+    "orientation" : "undefined",
+    "generated" : "undefined",
+    "icons" : [
+        {
+            "src": "https://r3klaw.github.io/r3klaw.github.io/icons/android-chrome-192x192.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://r3klaw.github.io/r3klaw.github.io/icons/android-chrome-512x512.png",
+            "sizes": "512x512"
+        }
+    ]}
