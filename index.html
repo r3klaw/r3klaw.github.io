@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
+	<!-- Service worker registration -->
+    <script type="text/javascript">
+      if (navigator.serviceWorker.controller) {
+        console.log('[PWA Builder] active service worker found, no need to register')
+      } else {
+        //Register the ServiceWorker
+        navigator.serviceWorker.register('pwabuilder-sw.js', {
+          scope: './'
+        }).then(function(reg) {
+          console.log('Service worker has been registered for scope:'+ reg.scope);
+        });
+      }
+    </script>
 <head>
 
 	<!-- /.website title -->
@@ -682,6 +695,7 @@ Regardless of which marketing strategy you select, it’s important to synchroni
 				</div>
 			</div>
 		</div>
+		
 	</footer>
 
 	<!-- /.javascript files -->
