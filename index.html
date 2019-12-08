@@ -640,6 +640,19 @@ async function install() {
   }
 }
   </script>
-
+<script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('/pwabuilder-sw.js')
+             .then(function() { console.log("Service Worker Registered"); });
+  }
+  </script>
 </body>
+<script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('/pwabuilder-sw.js')
+             .then(function() { console.log("Service Worker Registered"); });
+  }
+  </script>
 </html>

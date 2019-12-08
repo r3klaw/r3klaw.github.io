@@ -3,13 +3,13 @@
 	"lang" : "en",
 	"name" : "Fringe Tech Ict Consultancy",
 	"scope" : "/",
-	"display" : "browser",
+	"display" : "standalone",
 	"start_url" : "https://r3klaw.github.io/",
 	"short_name" : "ftic",
-	"theme_color" : "transparent",
+	"theme_color" : "#3367D6",
 	"description" : "Ict consultancy and computer software company",
 	"orientation" : "any",
-	"background_color" : "transparent",
+	"background_color" : "#3367D6",
 	"related_applications" : "",
 	"prefer_related_applications" : "false",
 	"icons" : [
@@ -20,6 +20,10 @@
 		{
 			"src": "https://r3klaw.github.io/img/apple-touch-icon.png",
 			"sizes": "500x500"
+        },
+        {
+			"src": "https://r3klaw.github.io/img/apple-touch-icon.png",
+			"sizes": "512x512"
 		}],
 	"screenshots" : [],
 	"generated" : "true"

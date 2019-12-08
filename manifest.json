@@ -1,0 +1,26 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Fringe Tech Ict Consultancy",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://r3klaw.github.io/",
+    "short_name": "ftic",
+    "theme_color": "#3367D6",
+    "description": "Ict consultancy and computer software company",
+    "orientation": "any",
+    "background_color": "#3367D6",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/img/favicon.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/images/img/apple-touch-icon.png",
+            "sizes": "500x500"
+        }
+    ],
+    "screenshots": []
+}
