@@ -6,10 +6,10 @@
 	"display" : "standalone",
 	"start_url" : "https://r3klaw.github.io/",
 	"short_name" : "ftic",
-	"theme_color" : "#3367D6",
+	"theme_color" : "#545B60",
 	"description" : "Ict consultancy and computer software company",
 	"orientation" : "any",
-	"background_color" : "#3367D6",
+	"background_color" : "#545B60",
 	"related_applications" : "",
 	"prefer_related_applications" : "false",
 	"icons" : [
